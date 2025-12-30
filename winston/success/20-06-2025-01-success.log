@@ -1,0 +1,174 @@
+Fri Jun 20 2025 1:13:4 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 203.144 ms
+Fri Jun 20 2025 1:16:6 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 226.763 ms
+Fri Jun 20 2025 1:19:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:19:1 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:19:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:19:1 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:19:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:19:4 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:19:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:19:4 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:19:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:19:6 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:19:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:19:6 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:20:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:20:25 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:20:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:20:25 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:20:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:20:44 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:20:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:20:44 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:20:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:20:45 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:20:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:20:45 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:21:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:21:3 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:21:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:21:3 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:21:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:21:5 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:21:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:21:5 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:21:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:21:8 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:21:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:21:8 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:21:51 [SERVER-NAME] info: [33mEmail values:, [object Object][39m
+Fri Jun 20 2025 1:21:51 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 220.908 ms
+Fri Jun 20 2025 1:21:54 [SERVER-NAME] info: Mail send successfully
+Fri Jun 20 2025 1:23:39 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/auth/verify-email 200 - 10.319 ms
+Fri Jun 20 2025 1:33:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:33:0 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:33:0 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:33:0 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:33:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:33:28 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:33:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:33:28 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:33:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:33:40 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:33:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:33:40 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:36:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:36:17 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:36:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:36:17 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:40:24 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/auth/login 200 - 217.438 ms
+Fri Jun 20 2025 1:44:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:37 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:37 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:44:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:44 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:44 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:44:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:48 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:48 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:44:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:50 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:50 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:44:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:54 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:54 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:54 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:44:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:44:55 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:44:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:44:55 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:6 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:6 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:8 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:8 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:12 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:12 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:15 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:15 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:15 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:19 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:19 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:25 [SERVER-NAME] info: Authorization header:
+Fri Jun 20 2025 1:45:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:45:52 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:45:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:45:52 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:45:55 [SERVER-NAME] info: Authorization header:
+Fri Jun 20 2025 1:46:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:46:11 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:46:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:46:11 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:46:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:46:26 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:46:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:46:26 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:46:27 [SERVER-NAME] info: Authorization header:
+Fri Jun 20 2025 1:46:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:46:40 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:46:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:46:40 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:47:13 [SERVER-NAME] info: Authorization header:
+Fri Jun 20 2025 1:47:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:47:26 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:47:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:47:26 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:47:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:47:46 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:47:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:47:46 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:2 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:2 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:8 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:8 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:14 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:14 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:14 [SERVER-NAME] info: Authorization header:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTQ2MzRmZGZhNTQ0YjEwOTg3MTcwNCIsInJvbGUiOiJVU0VSIiwiZW1haWwiOiJtZC5yaWZhdC50YWx1Y2tkYXJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzYyMDI0LCJleHAiOjE3NTI5NTQwMjR9.3CkoEVHcN_IwrP1UOyJ_jSHeVIb-sInZZJxYHoYhLp4
+Fri Jun 20 2025 1:48:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:48 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:48 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:51 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:51 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:54 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:54 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:54 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:48:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:48:58 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:48:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:48:58 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:49:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:49:1 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:49:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:49:1 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:49:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:49:2 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:49:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:49:2 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 1:49:4 [SERVER-NAME] info: Authorization header:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTQ2MzRmZGZhNTQ0YjEwOTg3MTcwNCIsInJvbGUiOiJVU0VSIiwiZW1haWwiOiJtZC5yaWZhdC50YWx1Y2tkYXJAZ21haWwuY29tIiwiaWF0IjoxNzUwMzYyMDI0LCJleHAiOjE3NTI5NTQwMjR9.3CkoEVHcN_IwrP1UOyJ_jSHeVIb-sInZZJxYHoYhLp4
+Fri Jun 20 2025 1:49:4 [SERVER-NAME] info: 127.0.0.1 - GET /api/v1/users/profile 200 - 21.061 ms
+Fri Jun 20 2025 1:49:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 1:49:20 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 1:49:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 1:49:20 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m

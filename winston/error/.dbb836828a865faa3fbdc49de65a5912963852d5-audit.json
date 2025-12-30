@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\.dbb836828a865faa3fbdc49de65a5912963852d5-audit.json",
+    "files": [
+        {
+            "date": 1766166185255,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\19-12-2025-23-error.log",
+            "hash": "0ec498349be076ebf5cb017a17fb96bc600831936bc90b2119237fdfad760d9d"
+        },
+        {
+            "date": 1766187119349,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\20-12-2025-05-error.log",
+            "hash": "7bd6b8f0a86c5d43b4ec196b5d41151256d4cee56150c688bf7a7a07fcfff92b"
+        }
+    ],
+    "hashType": "sha256"
+}

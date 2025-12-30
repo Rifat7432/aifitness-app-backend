@@ -1,0 +1,10 @@
+Fri Dec 19 2025 2:12:17 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/auth/verify-email 400 - 8.410 ms
+Fri Dec 19 2025 2:14:25 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 404 - 0.617 ms
+Fri Dec 19 2025 2:15:16 [SERVER-NAME] error: 127.0.0.1 - GET /api/v1/api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 404 - 3.204 ms
+Fri Dec 19 2025 2:15:33 [SERVER-NAME] error: 127.0.0.1 - GET /api/v1/api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 404 - 0.944 ms
+Fri Dec 19 2025 2:16:34 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 401 - 9.456 ms
+Fri Dec 19 2025 2:17:21 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 401 - 1.115 ms
+Fri Dec 19 2025 2:18:20 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 401 - 0.931 ms
+Fri Dec 19 2025 2:19:32 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/69445f6e1e384315c8e52a27 404 - 32.866 ms
+Fri Dec 19 2025 2:25:46 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/694462ae9aa94068ab1c2f48 404 - 9.901 ms
+Fri Dec 19 2025 2:33:59 [SERVER-NAME] error: 127.0.0.1 - POST /api/v1/subscriptions/create-checkout-session/694462ae9aa94068ab1c2f48 400 - 1723.285 ms

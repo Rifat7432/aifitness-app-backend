@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\mdrif\\Desktop\\test\\backend-defult-mongoose-template\\winston\\error\\.5b2d8641aa7958786329c347b5ac30d7cfaa4341-audit.json",
+    "files": [
+        {
+            "date": 1766087973114,
+            "name": "C:\\Users\\mdrif\\Desktop\\test\\backend-defult-mongoose-template\\winston\\error\\19-12-2025-01-error.log",
+            "hash": "0a049e62068cafdf6fbbeb40f9289b0b848741c4e2c76c3807e0f76002fbf18a"
+        },
+        {
+            "date": 1766088737628,
+            "name": "C:\\Users\\mdrif\\Desktop\\test\\backend-defult-mongoose-template\\winston\\error\\19-12-2025-02-error.log",
+            "hash": "ceb8e08e2a5c7baabe500ae578b6a72769547f3513c18c9e41808c6c500943c4"
+        }
+    ],
+    "hashType": "sha256"
+}

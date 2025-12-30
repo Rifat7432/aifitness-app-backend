@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\.7f6f0595d4631bac854fc7b2cfc48fafeeb2e506-audit.json",
+    "files": [
+        {
+            "date": 1750009428558,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\15-06-2025-23-error.log",
+            "hash": "0cc0db2533fe892e69f131575428fddf4260f35bac3bf5efb70b97bf5eb43da3"
+        },
+        {
+            "date": 1750013211428,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\16-06-2025-00-error.log",
+            "hash": "6aa8d97c795485014513c78b7d2b259170416a8cdfc5fef15c1cef074b1af7c3"
+        },
+        {
+            "date": 1750014079050,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\16-06-2025-01-error.log",
+            "hash": "f81e363a3dd0fac19bae0ed71cfdace785777b0f293712fe2124bdc59361f54e"
+        },
+        {
+            "date": 1750023745007,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\16-06-2025-03-error.log",
+            "hash": "cb5d5af27cea139cfd1c1b772137126d4a73347709f18b84df05f0b0146f8117"
+        },
+        {
+            "date": 1750025303396,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\error\\16-06-2025-04-error.log",
+            "hash": "46427183f22bf7827eaebb33cb6cb6d6fb502bbc9c5abfe06b63dc9bd050222d"
+        }
+    ],
+    "hashType": "sha256"
+}

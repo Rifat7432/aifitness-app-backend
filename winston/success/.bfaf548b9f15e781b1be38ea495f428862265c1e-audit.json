@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\.bfaf548b9f15e781b1be38ea495f428862265c1e-audit.json",
+    "files": [
+        {
+            "date": 1750009428555,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\15-06-2025-23-success.log",
+            "hash": "de9662e4525787a6c14361bcbcb779d7f2b08471951a95609b1a2b309a3a7834"
+        },
+        {
+            "date": 1750013211426,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\16-06-2025-00-success.log",
+            "hash": "d2f10c60c905eb9a41d1cdd87a7237222e56c150bdf316a83766d96d6e4340cf"
+        },
+        {
+            "date": 1750014079047,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\16-06-2025-01-success.log",
+            "hash": "762fe13467e94e15eb87029a003963920bd242e4fcfcc2ffc5df1d1817cdea03"
+        },
+        {
+            "date": 1750020523795,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\16-06-2025-02-success.log",
+            "hash": "a886a9a7cbb875b3295ac1fd1262e32555568f32d07039764f62635fcf0e2e54"
+        },
+        {
+            "date": 1750023744866,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\16-06-2025-03-success.log",
+            "hash": "5eefca135d5de534902dae9dafa9e31dfce1304878283ba846ededd2a15d5be9"
+        },
+        {
+            "date": 1750025303393,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\backend-template-latest\\winston\\success\\16-06-2025-04-success.log",
+            "hash": "59b0aad2dbc29abc3e15ad20bc361280fd2936a27dd9933eefe5f13132fca147"
+        }
+    ],
+    "hashType": "sha256"
+}

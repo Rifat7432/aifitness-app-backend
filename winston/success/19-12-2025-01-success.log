@@ -1,0 +1,4 @@
+Fri Dec 19 2025 1:59:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Dec 19 2025 1:59:45 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Dec 19 2025 1:59:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:5000[39m
+Fri Dec 19 2025 1:59:45 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:5001[39m

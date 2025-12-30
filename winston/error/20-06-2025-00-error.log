@@ -1,0 +1,8 @@
+Fri Jun 20 2025 0:47:7 [SERVER-NAME] error: 127.0.0.1 - GET /favicon.ico 404 - 1.396 ms
+Fri Jun 20 2025 0:51:43 [SERVER-NAME] error: 127.0.0.1 - POST /user 404 - 119.936 ms
+Fri Jun 20 2025 0:52:7 [SERVER-NAME] error: 127.0.0.1 - POST /users 404 - 0.536 ms
+Fri Jun 20 2025 0:53:2 [SERVER-NAME] error: 127.0.0.1 - POST /users/ 404 - 0.466 ms
+Fri Jun 20 2025 0:53:29 [SERVER-NAME] error: 127.0.0.1 - GET /users/profile 404 - 0.829 ms
+Fri Jun 20 2025 0:53:56 [SERVER-NAME] error: 127.0.0.1 - GET /api/v1/users/profile 401 - 2.393 ms
+Fri Jun 20 2025 0:54:8 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-237d8393227sm924115ad.24 - gsmtp

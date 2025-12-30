@@ -1,0 +1,12 @@
+Fri Jun 20 2025 0:45:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 0:45:40 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 0:45:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 0:45:40 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 0:46:20 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Fri Jun 20 2025 0:46:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jun 20 2025 0:46:39 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jun 20 2025 0:46:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 127.0.0.1:6002[39m
+Fri Jun 20 2025 0:46:39 [SERVER-NAME] info: [33m♻️  Application listening on http://127.0.0.1:7001[39m
+Fri Jun 20 2025 0:47:6 [SERVER-NAME] info: 127.0.0.1 - GET / 200 - 6.603 ms
+Fri Jun 20 2025 0:47:19 [SERVER-NAME] info: 127.0.0.1 - GET / 200 - 0.590 ms
+Fri Jun 20 2025 0:54:6 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 257.239 ms
