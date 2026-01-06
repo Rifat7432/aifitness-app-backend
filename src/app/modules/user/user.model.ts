@@ -10,7 +10,6 @@ const userSchema = new Schema<IUser, UserModel>(
      {
           email: {
                type: String,
-               required: true,
                unique: true,
                lowercase: true,
           },
@@ -19,6 +18,10 @@ const userSchema = new Schema<IUser, UserModel>(
                default: '',
                index: true,
           },
+          fullName: { type: String },
+          firstName: { type: String },
+          lastName: { type: String },
+          image: { type: String },
           role: {
                type: String,
                enum: Object.values(USER_ROLES) as string[],
@@ -50,6 +53,10 @@ const userSchema = new Schema<IUser, UserModel>(
                type: String,
                default: 'local',
           },
+          socialId: {
+               type: String,
+               default: '', // Stores either Apple or Google ID
+          },
           isResetPassword: {
                type: Boolean,
                default: false,
@@ -69,9 +76,6 @@ const userSchema = new Schema<IUser, UserModel>(
      },
      { timestamps: true },
 );
-
-// Primary index on _id (named pk) per requested model
-userSchema.index({ _id: 1 }, { name: 'pk' });
 
 // Exist User Check
 userSchema.statics.isExistUserById = async (id: string) => {
@@ -93,7 +97,8 @@ userSchema.statics.isMatchPassword = async (password: string, hashPassword: stri
 
 // Pre-Save Hook for Hashing Password & Checking Email Uniqueness
 userSchema.pre('save', async function (this: any, next: any) {
-     // Check email uniqueness only when email is modified or new
+     /* ================= EMAIL UNIQUENESS ================= */
+
      if (this.isModified && this.isModified('email')) {
           const isExist = await User.findOne({ email: this.get('email') });
           if (isExist && String(isExist._id) !== String(this._id)) {
@@ -101,9 +106,18 @@ userSchema.pre('save', async function (this: any, next: any) {
           }
      }
 
-     // Hash password only when it's created/modified
+     /* ================= PASSWORD HASHING ================= */
+
      if (this.isModified && this.isModified('password') && this.password) {
           this.password = await bcrypt.hash(this.password, Number(config.bcrypt_salt_rounds));
+     }
+
+     /* ================= FULL NAME AUTO BUILD ================= */
+     if ((this.isModified && this.isModified('firstName')) || this.isModified('lastName')) {
+          const firstName = this.firstName?.trim() || '';
+          const lastName = this.lastName?.trim() || '';
+
+          this.fullName = [firstName, lastName].filter(Boolean).join(' ');
      }
 
      next();

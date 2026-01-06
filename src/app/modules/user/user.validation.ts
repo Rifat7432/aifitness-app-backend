@@ -9,15 +9,14 @@ export const createUserZodSchema = z.object({
      }),
 });
 
-
 const updateUserZodSchema = z.object({
      body: z.object({
-           name: z.string().optional(),
-           phoneNumber: z.string().optional(),
-           address: z.string().optional(),
-           email: z.string().email('Invalid email address').optional(),
-           password: z.string().optional(),
-           image: z.string().optional(),
+          name: z.string().optional(),
+          phoneNumber: z.string().optional(),
+          address: z.string().optional(),
+          email: z.string().email('Invalid email address').optional(),
+          password: z.string().optional(),
+          image: z.string().optional(),
      }),
 });
 
@@ -36,10 +35,12 @@ export const appleAuthZodSchema = z.object({
      body: z.object({
           email: z.string({ required_error: 'Email is required' }).email('Invalid email address'),
           appleId: z.string({ required_error: 'appleId is required' }),
-          fullName: z.object({
-               givenName: z.string().optional(),
-               familyName: z.string().optional(),
-          }).optional(),
+          fullName: z
+               .object({
+                    givenName: z.string().optional(),
+                    familyName: z.string().optional(),
+               })
+               .optional(),
           deviceToken: z.string().optional(),
      }),
 });

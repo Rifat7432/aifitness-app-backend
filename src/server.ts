@@ -33,23 +33,21 @@ export async function startServer() {
           httpServer.keepAliveTimeout = 5000;
           httpServer.headersTimeout = 60000;
 
-          // Start HTTP server
-          httpServer.listen(httpPort, ipAddress, () => {
-               logger.info(colors.yellow(`♻️  Application listening on http://${ipAddress}:${httpPort}`));
-          });
-
-          // Set up Socket.io server
-          socketServer = new SocketServer({
+          // Set up Socket.io server on the same HTTP server
+          socketServer = new SocketServer(httpServer, {
                cors: {
-                    origin: config.allowed_origins || '*',
+                    origin: '*',
                     methods: ['GET', 'POST'],
-                    credentials: true,
                },
           });
 
-          socketServer.listen(socketPort);
+          // socketServer.listen(socketPort);
           socketHelper.socket(socketServer);
-          logger.info(colors.yellow(`♻️  Socket is listening on ${ipAddress}:${socketPort}`));
+
+          // Start HTTP server (and socket.io on same port)
+          httpServer.listen(httpPort, ipAddress, () => {
+               logger.info(colors.yellow(`♻️  Application & Socket listening on http://${ipAddress}:${httpPort} or http://localhost:${httpPort} in ${config.node_env} mode`));
+          });
      } catch (error) {
           logger.error(colors.red('Failed to start server'), error);
           process.exit(1);

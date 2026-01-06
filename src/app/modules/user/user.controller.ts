@@ -45,15 +45,15 @@ const createUserByGoogle = catchAsync(async (req, res) => {
           data: result,
      });
 });
-const getAllUsers = catchAsync(async (req, res) => {
-     const result = await UserService.getUsersWithSubscriptionsFromDB(req.query);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'User with subscriptions retrieved',
-          data: result,
-     });
-});
+// const getAllUsers = catchAsync(async (req, res) => {
+//      const result = await UserService.getUsersWithSubscriptionsFromDB(req.query);
+//      sendResponse(res, {
+//           success: true,
+//           statusCode: StatusCodes.OK,
+//           message: 'User with subscriptions retrieved',
+//           data: result,
+//      });
+// });
 const getUserProfile = catchAsync(async (req, res) => {
      const user: any = req.user;
 
@@ -138,7 +138,7 @@ export const UserController = {
      deleteProfile,
      createUserByGoogle,
      createUserByApple,
-     getAllUsers,
+     // getAllUsers,
      getUser,
      blockUser,
 };

@@ -1,5 +1,5 @@
 export type ICreateAccount = {
-     name: string;
+     name?: string;
      email: string;
      otp: number;
 };
