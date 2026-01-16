@@ -4,6 +4,6 @@ export interface IMonthlyMealPlan {
     userId: Types.ObjectId | string;
     biologicalInformationId?: Types.ObjectId | string;
     onboardingAssessmentId?: Types.ObjectId | string;
-    month?: number;
+    month?: String;
     year?: number;
 }

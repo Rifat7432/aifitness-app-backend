@@ -78,7 +78,18 @@ const getUser = catchAsync(async (req, res) => {
           data: result,
      });
 });
+const getUserTodaysGoalAnalytics = catchAsync(async (req, res) => {
+     const user: any = req.user;
 
+     const result = await UserService.getUserTodaysGoalAnalyticsFromDB(user);
+
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Profile data retrieved',
+          data: result,
+     });
+});
 //update profile
 const updateProfile = catchAsync(async (req, res) => {
      const user: any = req.user;
@@ -139,6 +150,7 @@ export const UserController = {
      createUserByGoogle,
      createUserByApple,
      // getAllUsers,
+     getUserTodaysGoalAnalytics,
      getUser,
      blockUser,
 };

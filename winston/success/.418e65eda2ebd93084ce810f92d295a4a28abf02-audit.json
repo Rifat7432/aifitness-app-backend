@@ -6,19 +6,24 @@
     "auditLog": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\.418e65eda2ebd93084ce810f92d295a4a28abf02-audit.json",
     "files": [
         {
-            "date": 1767726776082,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\07-01-2026-01-success.log",
-            "hash": "0bd81fcd3527273e8d1914c98ca28584488a57829ebed649ef99c71cdaaad7a6"
+            "date": 1768587254983,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\17-01-2026-00-success.log",
+            "hash": "0ade8e95dd9d3d14c49654da4913d21a6d5b972065f3f3f586dc66c4c1b57b8d"
         },
         {
-            "date": 1767735430725,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\07-01-2026-03-success.log",
-            "hash": "fa4be8eb429f08d737d17742d6d9a6ef8e5a12a6223def5cd8b649aae8faa2fc"
+            "date": 1768594011869,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\17-01-2026-02-success.log",
+            "hash": "431c485927e05f0d2d00b2bc43263f131331735b84dfa87ad149500742b53c56"
         },
         {
-            "date": 1767736808983,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\07-01-2026-04-success.log",
-            "hash": "350be8160a51c1145982db7cbf31eea15ed8602ea08eb94feff7f55557e41beb"
+            "date": 1768597399716,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\17-01-2026-03-success.log",
+            "hash": "4f89b9209a2d72f49456e4d77ca6d46e5c7a648ca8556f89e566f935e9125bd7"
+        },
+        {
+            "date": 1768600840138,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\success\\17-01-2026-04-success.log",
+            "hash": "3400dfcb192468776a2710b3897790b34255b3b223045a826c2ce5c84b17a3db"
         }
     ],
     "hashType": "sha256"

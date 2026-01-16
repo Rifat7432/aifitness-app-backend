@@ -5,7 +5,7 @@ const MonthlyMealPlanSchema = new Schema(
         userId: { type: Types.ObjectId, ref: 'User', required: true },
         biologicalInformationId: { type: Types.ObjectId, ref: 'BiologicalInformation' },
         onboardingAssessmentId: { type: Types.ObjectId, ref: 'OnboardingAssessment' },
-        month: { type: Number },
+        month: { type: String },
         year: { type: Number },
     },
     { timestamps: true },

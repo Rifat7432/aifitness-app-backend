@@ -1,0 +1,5 @@
+Sat Jan 17 2026 0:14:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jan 17 2026 0:14:29 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Sat Jan 17 2026 0:14:29 [SERVER-NAME] info: [33m♻️  Application & Socket listening on http://0.0.0.0:5000 or http://localhost:5000 in development mode[39m
+Sat Jan 17 2026 0:15:20 [SERVER-NAME] info: Mail send successfully
+Sat Jan 17 2026 0:15:20 [SERVER-NAME] info: 10.10.10.29 - POST /api/v1/users 200 - 4536.262 ms

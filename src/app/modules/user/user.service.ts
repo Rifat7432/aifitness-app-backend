@@ -9,6 +9,9 @@ import AppError from '../../../errors/AppError';
 import generateOTP from '../../../utils/generateOTP';
 import config from '../../../config';
 import { jwtHelper } from '../../../helpers/jwtHelper';
+import { UserGoals } from '../goals/goals.model';
+import { CategoryItem } from '../categoryItem/categoryItem.model';
+import mongoose from 'mongoose';
 
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
@@ -241,6 +244,126 @@ const getUserFromDB = async (id: string): Promise<Partial<IUser>> => {
      return isExistUser;
 };
 
+const getUserTodaysGoalAnalyticsFromDB = async (user: JwtPayload) => {
+     const { id } = user;
+     const isExistUser = await User.isExistUserById(id);
+     if (!isExistUser && isExistUser.isDeleted === true) {
+          throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+     }
+     const today = new Date();
+     const goal = await UserGoals.aggregate([
+          {
+               $match: {
+                    userId: new mongoose.Types.ObjectId(id),
+                    date: {
+                         $gte: new Date(today.getFullYear(), today.getMonth(), today.getDate()),
+                         $lt: new Date(today.getFullYear(), today.getMonth(), today.getDate() + 1),
+                    },
+               },
+          },
+          {
+               $addFields: {
+                    // Calories
+                    'calories.consumptionPercentage': {
+                         $cond: [
+                              { $gt: ['$calories.target', 0] },
+                              {
+                                   $multiply: [{ $divide: ['$calories.consumed', '$calories.target'] }, 100],
+                              },
+                              0,
+                         ],
+                    },
+
+                    // Macros
+                    'macros.protein.consumptionPercentage': {
+                         $cond: [
+                              { $gt: ['$macros.protein.target', 0] },
+                              {
+                                   $multiply: [
+                                        {
+                                             $divide: ['$macros.protein.consumed', '$macros.protein.target'],
+                                        },
+                                        100,
+                                   ],
+                              },
+                              0,
+                         ],
+                    },
+
+                    'macros.fat.consumptionPercentage': {
+                         $cond: [
+                              { $gt: ['$macros.fat.target', 0] },
+                              {
+                                   $multiply: [
+                                        {
+                                             $divide: ['$macros.fat.consumed', '$macros.fat.target'],
+                                        },
+                                        100,
+                                   ],
+                              },
+                              0,
+                         ],
+                    },
+
+                    'macros.carbs.consumptionPercentage': {
+                         $cond: [
+                              { $gt: ['$macros.carbs.target', 0] },
+                              {
+                                   $multiply: [
+                                        {
+                                             $divide: ['$macros.carbs.consumed', '$macros.carbs.target'],
+                                        },
+                                        100,
+                                   ],
+                              },
+                              0,
+                         ],
+                    },
+
+                    // Water Intake
+                    'waterIntake.consumptionPercentage': {
+                         $cond: [
+                              { $gt: ['$waterIntake.targetOz', 0] },
+                              {
+                                   $multiply: [
+                                        {
+                                             $divide: ['$waterIntake.consumedOz', '$waterIntake.targetOz'],
+                                        },
+                                        100,
+                                   ],
+                              },
+                              0,
+                         ],
+                    },
+               },
+          },
+     ]);
+
+     const dailyIntake = await CategoryItem.aggregate([
+          {
+               $match: {
+                    userId: new mongoose.Types.ObjectId(id),
+                    goalsId: new mongoose.Types.ObjectId(goal[0]?._id),
+               },
+          },
+          {
+               $addFields: {
+                    consumptionPercentage: {
+                         $cond: [
+                              { $gt: ['$target', 0] },
+                              {
+                                   $multiply: [{ $divide: ['$consumed', '$target'] }, 100],
+                              },
+                              0,
+                         ],
+                    },
+               },
+          },
+     ]);
+
+     return { user: isExistUser, goal: goal[0],dailyIntake };
+};
+
 // export const getUsersWithSubscriptionsFromDB = async (query: any): Promise<UserSubscriptionDTO[]> => {
 //      const { searchTerm: search, status: filterStatus = 'all', page = 1, limit = 10 } = query;
 
@@ -407,6 +530,7 @@ export const UserService = {
      handleAppleAuthentication,
      handleGoogleAuthentication,
      // getUsersWithSubscriptionsFromDB,
+     getUserTodaysGoalAnalyticsFromDB,
      getUserFromDB,
      blockUserToDB,
 };

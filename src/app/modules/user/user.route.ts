@@ -45,6 +45,7 @@ router.route('/profile').get(auth(USER_ROLES.ADMIN, USER_ROLES.USER), UserContro
      validateRequest(UserValidation.updateUserZodSchema),
      UserController.updateProfile,
 );
+router.route('/analytics').get(auth(USER_ROLES.ADMIN, USER_ROLES.USER), UserController.getUserTodaysGoalAnalytics);
 // user routes
 router.route('/').post(validateRequest(UserValidation.createUserZodSchema), UserController.createUser);
 router.post('/google', validateRequest(UserValidation.googleAuthZodSchema), UserController.createUserByGoogle);
