@@ -1,4 +1,5 @@
 import { Schema, model, Types } from 'mongoose';
+import { notFound } from './app/middleware/notFound';
 
 /* ===================== ENUMS ===================== */
 const USER_ROLE = ['user', 'admin'] as const;
@@ -326,3 +327,19 @@ const WeeklyWorkoutPlanSchema = new Schema(
 );
 
  const UserWeeklyWorkoutPlan = model('UserWeeklyWorkoutPlan', WeeklyWorkoutPlanSchema);
+
+
+const ProgressTrackerSchema = new Schema(
+     {
+          userId: { type: Types.ObjectId, ref: 'User', required: true, index: true },
+          date: { type: Date, required: true },
+          Image: { type: String },
+          notes: { type: String },
+     },
+     { timestamps: true },
+);
+
+
+const ProgressTracker = model('ProgressTracker', ProgressTrackerSchema);
+
+

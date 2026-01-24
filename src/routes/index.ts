@@ -12,8 +12,7 @@ import { FoodItemRouter } from '../app/modules/foodItem/foodItem.route';
 import { ExerciseRouter } from '../app/modules/exercise/exercise.route';
 import { DailySessionRouter } from '../app/modules/dailySession/dailySession.route';
 import { WeeklyPlanRouter } from '../app/modules/weeklyPlan/weeklyPlan.route';
-
-
+import { ProgressTrackerRouter } from '../app/modules/progressTracker/progressTracker.route';
 
 const router = express.Router();
 const routes = [
@@ -68,6 +67,10 @@ const routes = [
      {
           path: '/weekly-plan',
           route: WeeklyPlanRouter,
+     },
+     {
+          path: '/progress-tracker',
+          route: ProgressTrackerRouter,
      },
 ];
 

@@ -1,0 +1,23 @@
+Sun Jan 25 2026 0:19:40 [SERVER-NAME] info: [32m✅ [Reho App] Email sent successfully: <20260124181948.1ecb58bd1d23ac8a@mg.fitxess.com>[39m
+Sun Jan 25 2026 0:19:40 [SERVER-NAME] info: 10.10.10.12 - POST /api/v1/users 200 - 2454.236 ms
+Sun Jan 25 2026 0:20:4 [SERVER-NAME] info: 10.10.10.12 - POST /api/v1/auth/verify-email 200 - 996.129 ms
+Sun Jan 25 2026 0:28:14 [SERVER-NAME] info: [32m✅ [Reho App] Email sent successfully: <20260124182822.e411006d76b6d5b2@mg.fitxess.com>[39m
+Sun Jan 25 2026 0:28:14 [SERVER-NAME] info: 10.10.10.29 - POST /api/v1/users 200 - 3470.578 ms
+Sun Jan 25 2026 0:29:24 [SERVER-NAME] info: 10.10.10.29 - POST /api/v1/auth/verify-email 200 - 993.701 ms
+Sun Jan 25 2026 0:33:8 [SERVER-NAME] info: [32m✅ [Reho App] Email sent successfully: <20260124183316.94c6bbd9bc4c499c@mg.fitxess.com>[39m
+Sun Jan 25 2026 0:33:9 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 3461.687 ms
+Sun Jan 25 2026 0:33:48 [SERVER-NAME] info: 10.10.10.32 - POST /api/v1/auth/verify-email 200 - 992.463 ms
+Sun Jan 25 2026 0:37:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Jan 25 2026 0:37:33 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Sun Jan 25 2026 0:37:33 [SERVER-NAME] info: [33m♻️  Application & Socket listening on http://0.0.0.0:5000 or http://localhost:5000 in development mode[39m
+Sun Jan 25 2026 0:40:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Jan 25 2026 0:41:2 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Sun Jan 25 2026 0:41:2 [SERVER-NAME] info: [33m♻️  Application & Socket listening on http://0.0.0.0:5000 or http://localhost:5000 in development mode[39m
+Sun Jan 25 2026 0:41:18 [SERVER-NAME] info: [32m✅ [AI App] Email sent successfully: <20260124184126.55b55116a47a7e8e@mg.fitxess.com>[39m
+Sun Jan 25 2026 0:41:18 [SERVER-NAME] info: 127.0.0.1 - POST /api/v1/users 200 - 3033.970 ms
+Sun Jan 25 2026 0:41:57 [SERVER-NAME] info: 10.10.10.32 - POST /api/v1/auth/verify-email 200 - 1129.258 ms
+Sun Jan 25 2026 0:43:26 [SERVER-NAME] info: 10.10.10.32 - PATCH /api/v1/users/profile 200 - 1048.252 ms
+Sun Jan 25 2026 0:45:41 [SERVER-NAME] info: [32m✅ [AI App] Email sent successfully: <20260124184550.128c156a3c4030e5@mg.fitxess.com>[39m
+Sun Jan 25 2026 0:45:42 [SERVER-NAME] info: 10.10.10.29 - POST /api/v1/users 200 - 3698.610 ms
+Sun Jan 25 2026 0:46:31 [SERVER-NAME] info: 10.10.10.29 - POST /api/v1/auth/verify-email 200 - 1016.960 ms
+Sun Jan 25 2026 0:49:22 [SERVER-NAME] info: 10.10.10.29 - PATCH /api/v1/users/profile 200 - 1030.592 ms

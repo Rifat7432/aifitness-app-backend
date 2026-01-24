@@ -6,29 +6,19 @@
     "auditLog": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\.dbb836828a865faa3fbdc49de65a5912963852d5-audit.json",
     "files": [
         {
-            "date": 1768587254996,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\17-01-2026-00-error.log",
-            "hash": "47b8674813d0f0be5385bebfc2f68ff3733257e624000848a6f6d73f6a6e6231"
+            "date": 1769209361146,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\24-01-2026-05-error.log",
+            "hash": "1d355b04604193863091e37b02a320f1c689c83dc2b12f2c0a61ad91be85e974"
         },
         {
-            "date": 1768593535459,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\17-01-2026-01-error.log",
-            "hash": "64ce1c3cdc0c6e1f18a14de6c190b1e53d22c466b289c73aa4f0ae4adeabc483"
+            "date": 1769274256836,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\24-01-2026-23-error.log",
+            "hash": "acf1566d9ead601ea7629d210aa5efbc3125894de4f38ef9c271e0db7d8b8b0f"
         },
         {
-            "date": 1768594025157,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\17-01-2026-02-error.log",
-            "hash": "bb501390bcc3a7cade128c8fd82a45fc34a0c47618319697e8b14a0c7254d2f0"
-        },
-        {
-            "date": 1768597392297,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\17-01-2026-03-error.log",
-            "hash": "f00408bb50126bfc8bab19f9f2f48420021193b5b08d88d880d91c08de4c37d6"
-        },
-        {
-            "date": 1768600840140,
-            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\17-01-2026-04-error.log",
-            "hash": "4892fa75da52189ae5f1c1d73414966d7fbc3e76abd14d19a52cf4d7b3d48699"
+            "date": 1769279200998,
+            "name": "C:\\Users\\mdrif\\Desktop\\projects\\aifitness-app-backend\\winston\\error\\25-01-2026-00-error.log",
+            "hash": "e4b5cfbdefa72bf717323063c438590449885c54c23d86b7698000b0030de0f6"
         }
     ],
     "hashType": "sha256"

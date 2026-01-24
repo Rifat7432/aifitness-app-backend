@@ -477,7 +477,7 @@ const updateProfileToDB = async (user: JwtPayload, payload: Partial<IUser>): Pro
      //      deleteFileFromSpaces(isExistUser.image);
      // }
 
-     const updateDoc = await User.findOneAndUpdate({ _id: id }, payload, {
+     const updateDoc = await User.findOneAndUpdate({ _id: id }, {...payload}, {
           new: true,
      });
 
