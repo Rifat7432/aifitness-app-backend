@@ -1,0 +1,5 @@
+Sun Jan 25 2026 5:23:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Jan 25 2026 5:23:29 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Sun Jan 25 2026 5:23:29 [SERVER-NAME] info: [33m♻️  Application & Socket listening on http://0.0.0.0:5000 or http://localhost:5000 in development mode[39m
+Sun Jan 25 2026 5:24:16 [SERVER-NAME] info: 127.0.0.1 - PATCH /api/v1/users/profile 200 - 4209.786 ms
+Sun Jan 25 2026 5:25:10 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m

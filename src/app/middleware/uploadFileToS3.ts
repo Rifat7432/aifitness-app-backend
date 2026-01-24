@@ -41,7 +41,6 @@ const uploadFileToS3 = async (localFilePath: string) => {
                Key: fileName,
                Body: fileStream,
                ContentType: contentType,
-               ACL: 'public-read', // remove if using private bucket
           });
 
           await s3Client.send(command);
